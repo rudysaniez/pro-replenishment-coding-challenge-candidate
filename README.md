@@ -22,6 +22,8 @@ tags : `Stream`
 - [Presentation](#presentation)
 - [Coding challenge](#coding-challenge)
 	- [Stream](#stream)
+- [Project Reactor](#project-reactor)
+	- [Combining Publishers](#combining-publishers)
 
 ## Presentation
 
@@ -47,6 +49,20 @@ Now, your job is to add several features to filter, sort and aggregate the data.
 - Get the product with the lowest sale for all BUs
 - Get the product with the highest total amount for all BUs
 - Get the product with the highest total amount with an aggregation by the product name
+
+### Project Reactor
+
+### Combining Publishers
+
+I propose you a coding challenge about the combining `Publishers ` with Project Reactor.
+
+You have the `WebClient` component which allows you to retrieve the products flow and products sale flow. This component simulates an http request to REST API.
+
+Now, your job is to realize an aggregation flow.
+
+- Step 1 : get the products flow
+- Step 2 : get the products sale flow
+- Step 3 : realize an aggregation flow
 
 
 
