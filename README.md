@@ -16,14 +16,17 @@
 
 Good reading! 🌈
 
-tags : `Stream`
+tags : `Multithreading` `Stream` `Project Reactor`
 
 ## 📝 Table of Contents
 - [Presentation](#presentation)
 - [Coding challenge](#coding-challenge)
+	- [Multithreading and concurrent processing](#multithreading-and-concurrent-processing)
+		- [Express yourself broker](#express-yourself-broker)
 	- [Stream](#stream)
-- [Project Reactor](#project-reactor)
-	- [Combining Publishers](#combining-publishers)
+		- [Products sale](#products-sale)
+	- [Project Reactor](#project-reactor)
+		- [Combining Publishers](#combining-publishers)
 
 ## Presentation
 
@@ -33,7 +36,19 @@ This file presents several trainings on the Java language. Indeed, you guessed i
 
 ## Coding challenge
 
+### Multithreading and concurrent processing
+
+### Express yourself broker
+
+I propose you an another coding challenge using the Java threads.  
+Here, you have the opportunity to express yourself ! 😀
+Indeed, you will have to implement the `ExpressYourselfBroker` component. The basic idea is to send several messages to `ExpressYourselfBroker` component. With the help of the `Queue` and `Thread` components, you will consume these messages and display them in the Java console.
+
+---
+
 ### Stream
+
+### Products sale
 
 I propose you a first coding challenge using the `Stream` with the Java language.
 
@@ -49,6 +64,8 @@ Now, your job is to add several features to filter, sort and aggregate the data.
 - Get the product with the lowest sale for all BUs
 - Get the product with the highest total amount for all BUs
 - Get the product with the highest total amount with an aggregation by the product name
+
+---
 
 ### Project Reactor
 
