@@ -27,6 +27,7 @@ tags : `Multithreading` `Stream` `Project Reactor`
 		- [Products sale](#products-sale)
 	- [Project Reactor](#project-reactor)
 		- [Combining Publishers](#combining-publishers)
+		- [TvShows coding](#tvshows-coding)
 
 ## Presentation
 
@@ -92,5 +93,8 @@ With the `webClient` you can retrieves many TvShows and many ratings. So, two AP
 - average of grades
 - count of grades
 
-Step one : You will make a page of TvShows
+Step one : You will make a page of TvShows  
 Step two : You will make an enrichment of the TvShows page
+
+
+
