@@ -44,7 +44,7 @@ public class TvShowPeerProgramingChallengeTest {
 		
 		
 		/*
-		 * I wish a page of TvShows enriched from ratings data.
+		 * I wish a page of TvShows enriched with the ratings data.
 		 */
 		
 		//FIXME : Your code...

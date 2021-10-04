@@ -81,7 +81,16 @@ Now, your job is to realize an aggregation flow.
 - Step 2 : get the products sale flow
 - Step 3 : realize an aggregation flow
 
+### TvShows coding
 
+I propose you a coding challenge about the `flatMap` and `zip` operations of the `project Reactor`.
 
+With the `webClient` you can retrieves many TvShows and many ratings. So, two APIs are simulated. You will need to call these two APIs and realize an aggregation to enrich the TvShows :
 
+- max grade
+- min grade
+- average of grades
+- count of grades
 
+Step one : You will make a page of TvShows
+Step two : You will make an enrichment of the TvShows page
